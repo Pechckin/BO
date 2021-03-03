@@ -1,1 +1,0 @@
-{"train_episodes": 10, "test_episodes": 10, "test_every": 2, "action_size": 4, "alpha_actor": 0.0001, "alpha_critic": 0.0001, "buffer_size": 100, "env": "breakout", "num_batches": 10, "batch_size": 10, "gamma": 0.99, "eps": 0.2}

@@ -15,8 +15,9 @@ class PPOModel(nn.Module):
         super(PPOModel, self).__init__()
         self.device = device
         # заводим актор-критик сеть
+
         self.NET = ActorCritic(action_size).apply(self.weights).to(device)
-        # автоэнкодер
+        # автонкодер
         self.AU = AutoEncoder(bo_points_dim).to(device)
 
         self.optimizer = optim.Adam(list(self.NET.parameters()) + list(self.AU.parameters()), lr=lr_optim, eps=1e-5)

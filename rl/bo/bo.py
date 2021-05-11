@@ -7,6 +7,7 @@ from botorch.acquisition import ExpectedImprovement
 class BO:
     '''
     Байесовская оптимизация
+
     '''
 
     def __init__(self,

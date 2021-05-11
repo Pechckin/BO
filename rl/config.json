@@ -8,7 +8,7 @@
     "type": "BO_EI_10_X10_NOISE",
     "num_workers": 8,
     "action_size": 4,
-    "lr_optim": 0.00025,
+    "lr_optim": 0.0002,
     "clip": 0.5,
     "buffer_size": 128,
     "num_batches": 4,
